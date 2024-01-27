@@ -19,7 +19,8 @@ a:hover {
 	text-decoration:none;
 }
 a img {
-	border:0;
+	border:1;
+	
 }
 input, textarea, select {
 	font-size:12px;
