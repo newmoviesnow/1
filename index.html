@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Telegram Video Player</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background: linear-gradient(135deg, #ff7e5f, #feb47b);
+      color: #fff;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    video {
+      width: 80%;
+      max-width: 700px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #fff;
+      color: #ff7e5f;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .download-btn:hover {
+      background: #ffe0d1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Watch or Download Video</h1>
+    <!-- Replace the src URL below with your real Telegram video link -->
+  <video controls>
+    <source src="https://api.telegram.org/file/bot8235077090:AAEGwOPOcV9V4eedFgoBnym8wU1gcu7Kfm0/AAMCBAADGQEAAxJoyUtuBG45-qXer09Ha108QSC2VQAC_xsAAnWNIFL48OBqLU7UXwEAB20AAzYE" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Download button -->
+  <br>
+  <a class="download-btn" href="https://api.telegram.org/file/bot<YOUR_TOKEN>/<file_path>" download>
+    ⬇️ Download Video
+  </a>
+</body>
+</html>
